@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #bd5b5b;
+  color: white;
+}
+
+.pagina {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  border-bottom: 2px dashed #fff;
+}
+
+.capa {
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.capa img {
+  max-width: 90%;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.texto {
+  max-width: 600px;
+}
+
+.texto h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.texto p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.projeto img,
+.galeria img,
+.contato img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.galeria {
+  justify-content: space-around;
+}
+
+.galeria div {
+  text-align: center;
+}
+
+.galeria p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.contato {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contato .texto {
+  flex: 1;
+  min-width: 250px;
+}
+
+.contato img {
+  width: 300px;
+}
